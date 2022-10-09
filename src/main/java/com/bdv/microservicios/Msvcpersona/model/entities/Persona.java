@@ -1,10 +1,10 @@
-package com.bdv.microservicios.Msvccaptura.model.entities;
+package com.bdv.microservicios.Msvcpersona.model.entities;
 
 import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDateTime;
+
 
 @NoArgsConstructor
 @AllArgsConstructor

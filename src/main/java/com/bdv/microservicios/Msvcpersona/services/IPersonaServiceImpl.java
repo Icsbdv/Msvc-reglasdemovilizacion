@@ -1,7 +1,8 @@
-package com.bdv.microservicios.Msvccaptura.services;
+package com.bdv.microservicios.Msvcpersona.services;
 
-import com.bdv.microservicios.Msvccaptura.model.entities.Persona;
-import com.bdv.microservicios.Msvccaptura.model.repo.IPersonaRepo;
+
+import com.bdv.microservicios.Msvcpersona.model.entities.Persona;
+import com.bdv.microservicios.Msvcpersona.model.repo.IPersonaRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

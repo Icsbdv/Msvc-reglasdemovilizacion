@@ -1,8 +1,9 @@
-package com.bdv.microservicios.Msvccaptura.controller;
+package com.bdv.microservicios.Msvcpersona.controller;
 
 
-import com.bdv.microservicios.Msvccaptura.model.entities.Persona;
-import com.bdv.microservicios.Msvccaptura.services.IPersonaService;
+
+import com.bdv.microservicios.Msvcpersona.model.entities.Persona;
+import com.bdv.microservicios.Msvcpersona.services.IPersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

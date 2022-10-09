@@ -1,8 +1,9 @@
-package com.bdv.microservicios.Msvccaptura.model.repo;
+package com.bdv.microservicios.Msvcpersona.model.repo;
 
 
 
-import com.bdv.microservicios.Msvccaptura.model.entities.Persona;
+
+import com.bdv.microservicios.Msvcpersona.model.entities.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.query.Procedure;
 import org.springframework.data.repository.query.Param;
