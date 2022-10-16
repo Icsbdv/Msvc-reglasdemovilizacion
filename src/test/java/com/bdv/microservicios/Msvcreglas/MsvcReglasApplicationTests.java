@@ -1,10 +1,10 @@
-package com.bdv.microservicios.Msvcpersona;
+package com.bdv.microservicios.Msvcreglas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsvcPersonaApplicationTests {
+class MsvcReglasApplicationTests {
 
 	@Test
 	void contextLoads() {

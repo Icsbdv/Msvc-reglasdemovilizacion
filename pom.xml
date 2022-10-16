@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bdv.microservicios</groupId>
-	<artifactId>Msvc-persona</artifactId>
+	<artifactId>Msvc-reglas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Msvc-persona</name>
-	<description>Microservicio de inserción, modificacion y eliminacion de persona</description>
+	<name>Msvc-reglas</name>
+	<description>Microservicio de reglas de movilizacion</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -59,7 +59,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>Msvc-persona-V1.0</finalName>
+		<finalName>Msvc-reglas-V1.0</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
