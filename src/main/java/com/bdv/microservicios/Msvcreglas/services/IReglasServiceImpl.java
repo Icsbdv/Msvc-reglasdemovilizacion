@@ -21,11 +21,17 @@ public class IReglasServiceImpl implements IReglasService{
 
     @Override
     @Transactional
+    public Reglas consultarRegla(String idproducto, Integer itipo1, Integer itipo2) {
+        return reglasRepo.findRegla(idproducto,itipo1,itipo2);
+    }
+
+    @Override
+    @Transactional
     public Reglas guardarReglas(Reglas reglas) {
       String sProducto=reglas.getSproducto();
       Integer iTipo1=reglas.getItipo1();
-      Integer iTipo2=reglas.getItipo1();
-      String sMonto=reglas.getSproducto();
+      Integer iTipo2=reglas.getItipo2();
+      String sMonto=reglas.getSmonto();
       reglasRepo.sp_RULE("INSERT",sProducto,iTipo1,iTipo2,sMonto,USER);
       return reglas;
     }

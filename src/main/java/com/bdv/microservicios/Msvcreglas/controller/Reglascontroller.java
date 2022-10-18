@@ -34,8 +34,15 @@ public class Reglascontroller {
             @RequestParam(name="productoId") String productoId,
             @RequestParam(name="itipo1") Integer itipo1,
             @RequestParam(name="itipo2") Integer itipo2){
-       iReglasService.eliminarRegla(productoId,itipo1,itipo2);
-        return ResponseEntity.noContent().build();
+
+      Reglas reglas=iReglasService.consultarRegla(productoId,itipo1,itipo2);
+
+       if(reglas==null){
+           return ResponseEntity.notFound().build();
+       }else {
+           iReglasService.eliminarRegla(productoId, itipo1, itipo2);
+           return ResponseEntity.noContent().build();
+       }
     }
 
 
