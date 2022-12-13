@@ -60,7 +60,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>msvcreglas</finalName>
+		<finalName>msvcreglas-r1-bdv</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
