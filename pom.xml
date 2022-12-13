@@ -60,7 +60,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>Msvc-reglas-V1.0</finalName>
+		<finalName>msvcreglas-r1-bdv</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
